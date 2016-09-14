@@ -218,21 +218,16 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:24d0be4fc4
 ## Question 6
-6:
-* What is the length of the longest ORF appearing in any sequence and in any forward reading frame?
-_1_. 1518
-2. 1488
-3. 1095
-4. 834
-5. 1272
-6. 2712
+
+What is the length of the longest ORF appearing in any sequence and in any forward reading frame?
 
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 1518
+- 1488
+- 1095
+- 834
+- 1272
 
 *** =hint
 Hint Hint Hint
@@ -253,7 +248,7 @@ import matplotlib.pyplot as plt
 
 msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
+test_mc(1, [msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:53437f0648
 ## Question 7
