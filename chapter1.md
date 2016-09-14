@@ -137,12 +137,7 @@ Also we will assume that the repeats can overlap. For instance the sequence ACAC
 Given a length n, your program should be able to identify all the repeats of length n in all sequences in the FASTA file. Your program should also find out how many times each repeat occurs in the file, and which is the most frequent repeat of a given length.
 
 What is the length of the longest ORF appearing in reading frame 2 of any of the sequences?
-1. 1488
-_2_.1134
-3. 1518
-4. 834
-5. 1271
-6. 1272
+
 
 *** =instructions
 - 1488
