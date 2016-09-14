@@ -9,7 +9,7 @@ slides_link :
 
 Write a Python program that takes as input a multi-FASTA file with DNA sequences, and computes the answers to the following questions. You can choose to write one program with multiple functions to answer these questions, or you can write several programs to address them. There will be a final quiz at the end of the Python for Genomic Data course that will require you to run this program on a provided multi-FASTA file. 
 
-1. How many records are in the file? A record in a FASTA file is defined as a single-line header,  followed by lines of sequence data. The header of the record is distinguished from the sequence data by a greater-than (">") symbol in the first column. The word following the ">" symbol is the identifier of the sequence, and the rest of the line is the description.There should be no space between the ">" and the first letter of the identifier.
+How many records are in the file? A record in a FASTA file is defined as a single-line header,  followed by lines of sequence data. The header of the record is distinguished from the sequence data by a greater-than (">") symbol in the first column. The word following the ">" symbol is the identifier of the sequence, and the rest of the line is the description.There should be no space between the ">" and the first letter of the identifier.
 
 *** =instructions
 - 14
@@ -21,7 +21,7 @@ Write a Python program that takes as input a multi-FASTA file with DNA sequences
 - 760
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -44,7 +44,9 @@ test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success, msg_bad, msg_bad, msg_bad])
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:7187d6e84e
 ## Question 2
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+What are the length of the sequences in the file? What is the longest sequence and what is the shortest sequence? Are there more than one longest or shortest sequence? What are their identifiers?
+
+What is the length of the longest sequence in the file?
 
 *** =instructions
 - Long movies, clearly
