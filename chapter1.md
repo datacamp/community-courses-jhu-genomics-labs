@@ -90,8 +90,8 @@ CAA∑GCC∑TTA∑TAT∑TAG∑C ```
 These are called reading frames 1,2, and 3 respectively. An open reading frame (ORF) is the part of a reading frame that has the potential to code for a protein or peptide. It starts with a start codon (ATG), and ends with a stop codon (TAA, TAG or TGA). For instance, ATGAAATAG is an ORF of length 9. Given an input forward reading frame (1,2, or 3) your program should be able to identify all ORFs present in each sequence of the FASTA file, and answer the following questions: what is the length of the longest ORF in the file? What is the identifier of the sequence containing the longest ORF? What is the starting position of the longest ORF in the sequence that contains it? The position should indicate the character number in the sequence. For instance, the following ORF in reading frame 1:
 >sequence1
 ```ATGCCCTAG```
-<p>starts at position 1.
-<p>Note that although the following sequence:
+starts at position 1.
+Noote that although the following sequence:
 >sequence2
 ```ATGAAAAAA```
 doesn't have any stop codon in reading frame 1, we will not consider it to be an ORF in reading frame 1 because it doesn't end with a stop codon.
