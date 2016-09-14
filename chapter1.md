@@ -339,19 +339,15 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ## Question 9
 9.
 * How many repeats of length 12 have the largest number of occurences in all the sequences?
-_1_. 3
-2. 1
-3. 7
-4. 24
-5. 2
-6. 9
+
 
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 3
+- 1
+- 7
+- 24
+- 9
 
 *** =hint
 Hint Hint Hint
@@ -372,7 +368,7 @@ import matplotlib.pyplot as plt
 
 msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
+test_mc(1, [msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:9a3bc45efb
 ## Question 10
@@ -409,38 +405,7 @@ msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
 test_mc(1, [msg_success, msg_bad, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
---- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:aad7d67a7a
-## Question 10
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
-
-*** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
-
-*** =hint
-Hint Hint Hint
-
-*** =pre_exercise_code
-```{r}
-# The pre exercise code runs code to initialize the user's workspace.
-# You can use it to load packages, initialize datasets and draw a plot in the viewer
-
-import pandas as pd
-import matplotlib.pyplot as plt
-
-```
-
-*** =sct
-```{r}
-# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
-
-msg_bad = "That is not correct!"
-msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
-```
 --- type:NormalExercise lang:python xp:100 skills:1 key:9d1e104368
 ## Regular Exercise
 
