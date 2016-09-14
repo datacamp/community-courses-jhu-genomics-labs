@@ -337,10 +337,8 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ed76e2e48e
 ## Question 9
-9.
-* How many repeats of length 12 have the largest number of occurences in all the sequences?
 
-
+How many repeats of length 12 have the largest number of occurences in all the sequences?
 
 *** =instructions
 - 3
