@@ -1,8 +1,8 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Genomic Data Science Specialization - Final Quiz Demo
+description : This class provides an introduction to the Python programming language and the iPython notebook. This is the third course in the Genomic Big Data Science Specialization from Johns Hopkins University
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+slides_link :
 
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:781f7226ca
 ## A really bad movie
@@ -40,6 +40,367 @@ msg_bad = "That is not correct!"
 msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:7187d6e84e
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:8f07414a65
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:642d18896c
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:60978bf3e8
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:24d0be4fc4
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:53437f0648
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ea1198f108
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ed76e2e48e
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:9a3bc45efb
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:aad7d67a7a
+## A really bad movie
+
+Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
+*** =instructions
+- Long movies, clearly
+- Short movies, clearly
+- Long movies, but the correlation seems weak
+- Short movies, but the correlation seems weak
+
+*** =hint
+Have a look at the plot. Do you see a trend in the dots?
+
+*** =pre_exercise_code
+```{r}
+# The pre exercise code runs code to initialize the user's workspace.
+# You can use it to load packages, initialize datasets and draw a plot in the viewer
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+
+plt.scatter(movies.runtime, movies.rating)
+plt.show()
+```
+
+*** =sct
+```{r}
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+
+msg_bad = "That is not correct!"
+msg_success = "Exactly! The correlation is very weak though."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+```
+
 
 --- type:NormalExercise lang:python xp:100 skills:1 key:9d1e104368
 ## Plot the movies yourself
