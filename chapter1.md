@@ -175,25 +175,22 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:60978bf3e8
 ## Question 5
-5:
-* At what position in the sequence starts the longest ORF in reading frame 3? The position should indicate the character number in the sequence. For instance, the following ORF:
+
+At what position in the sequence starts the longest ORF in reading frame 3? The position should indicate the character number in the sequence. For instance, the following ORF:
+
 > sequence1
 ATGCCCTAG
 starts at position 1.
-1. 237
-2. 1045
-_3_. 1818
-4. 39
-5. 575
-6. 2100
 
 
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 237
+- 1045
+- 1818
+- 39
+- 575
+- 2100
 
 *** =hint
 Hint Hint Hint
@@ -214,7 +211,7 @@ import matplotlib.pyplot as plt
 
 msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
+test_mc(3, [msg_bad, msg_bad, msg_success, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:24d0be4fc4
 ## Question 6
