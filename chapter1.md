@@ -257,23 +257,18 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:53437f0648
 ## Question 7
-7.
-* What is the length of the longest ORF that appears in the sequence with the identifier  gi|142022655|gb|EQ086233.1|97?
-1. 2067  
-2. 1551
-3. 1358
-_4_. 1272
-5. 1080
-6.783
-7.588
 
+What is the length of the longest ORF that appears in the sequence with the identifier  >gi|142022655|gb|EQ086233.1|97?
 
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 2067  
+- 1551
+- 1358
+- 1272
+- 1080
+- 783
+- 588
 
 *** =hint
 Hint Hint Hint
@@ -294,7 +289,7 @@ import matplotlib.pyplot as plt
 
 msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ea1198f108
 ## Question 8
