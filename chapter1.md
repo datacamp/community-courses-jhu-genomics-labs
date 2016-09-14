@@ -130,14 +130,27 @@ test_mc(3, [msg_bad, msg_bad, msg_success, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:642d18896c
 ## Question 4
+A repeat is a substring of the DNA sequence that occurs in multiple copies (more than one) throughout the sequence. Although repeats can occur on both forward or reverse strand of the DNA sequence, we will only consider repeats on the forward strand here. 
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+Also we will assume that the repeats can overlap. For instance the sequence ACACA contains two repeats of length 3: ACA amd CAC. CAC occurs while once in the sequence at position 2 (index 1 in Python), while ACA occurs twice - once at position 1, and once at position 3. 
+
+Given a length n, your program should be able to identify all the repeats of length n in all sequences in the FASTA file. Your program should also find out how many times each repeat occurs in the file, and which is the most frequent repeat of a given length.
+
+What is the length of the longest ORF appearing in reading frame 2 of any of the sequences?
+1. 1488
+_2_.1134
+3. 1518
+4. 834
+5. 1271
+6. 1272
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 1488
+- 1134
+- 1518
+- 834
+- 1271
+- 1272
 
 *** =hint
 Hint Hint Hint
