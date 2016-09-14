@@ -49,13 +49,15 @@ What are the length of the sequences in the file? What is the longest sequence a
 What is the length of the longest sequence in the file?
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 6007
+- 3245
+- 1247
+- 10523
+- 4510
+- 4200
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -65,10 +67,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -77,7 +75,7 @@ plt.show()
 
 msg_bad = "That is not correct!"
 msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:8f07414a65
 ## Question 3
