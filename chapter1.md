@@ -175,8 +175,19 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:60978bf3e8
 ## Question 5
+5:
+* At what position in the sequence starts the longest ORF in reading frame 3? The position should indicate the character number in the sequence. For instance, the following ORF:
+> sequence1
+ATGCCCTAG
+starts at position 1.
+1. 237
+2. 1045
+_3_. 1818
+4. 39
+5. 575
+6. 2100
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
 
 *** =instructions
 - Long movies, clearly
@@ -207,8 +218,15 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:24d0be4fc4
 ## Question 6
+6:
+* What is the length of the longest ORF appearing in any sequence and in any forward reading frame?
+_1_. 1518
+2. 1488
+3. 1095
+4. 834
+5. 1272
+6. 2712
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
 *** =instructions
 - Long movies, clearly
@@ -239,8 +257,17 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:53437f0648
 ## Question 7
+7.
+* What is the length of the longest ORF that appears in the sequence with the identifier  gi|142022655|gb|EQ086233.1|97?
+1. 2067  
+2. 1551
+3. 1358
+_4_. 1272
+5. 1080
+6.783
+7.588
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+
 
 *** =instructions
 - Long movies, clearly
@@ -271,8 +298,15 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ea1198f108
 ## Question 8
+8.
+* What is the most number of times the most frequent repeat of length 6 appears in all sequences?
+1. 153
+_2_. 158
+3. 72
+4. 541
+5. 98
+6. 356
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
 *** =instructions
 - Long movies, clearly
@@ -303,8 +337,15 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ed76e2e48e
 ## Question 9
+9.
+* How many repeats of length 12 have the largest number of occurences in all the sequences?
+_1_. 3
+2. 1
+3. 7
+4. 24
+5. 2
+6. 9
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
 *** =instructions
 - Long movies, clearly
@@ -335,14 +376,17 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:9a3bc45efb
 ## Question 10
+10:
+Which one of the following repeats of length 7 has a maximum number of occurences?
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- CGGCGGC
+- CGGCGCT
+- TGGTGGC
+- GCCGCCG
+- GCGGCGC
+- TCGGCGC
 
 *** =hint
 Hint Hint Hint
@@ -363,7 +407,7 @@ import matplotlib.pyplot as plt
 
 msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
+test_mc(1, [msg_success, msg_bad, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:aad7d67a7a
 ## Question 10
