@@ -74,7 +74,7 @@ import matplotlib.pyplot as plt
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
+msg_success = "Great job! You are awesome."
 test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:8f07414a65
@@ -89,7 +89,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -99,10 +99,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -110,8 +106,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:642d18896c
 ## Question 4
@@ -125,7 +121,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -135,10 +131,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -146,8 +138,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:60978bf3e8
 ## Question 5
@@ -161,7 +153,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -171,10 +163,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -182,8 +170,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:24d0be4fc4
 ## Question 6
@@ -197,7 +185,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -207,10 +195,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -218,8 +202,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:53437f0648
 ## Question 7
@@ -233,7 +217,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -243,10 +227,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -254,8 +234,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ea1198f108
 ## Question 8
@@ -269,7 +249,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -279,10 +259,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -290,8 +266,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ed76e2e48e
 ## Question 9
@@ -305,7 +281,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -315,10 +291,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -326,8 +298,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:9a3bc45efb
 ## Question 10
@@ -341,7 +313,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -351,10 +323,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -362,8 +330,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:aad7d67a7a
 ## Question 10
@@ -377,7 +345,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, but the correlation seems weak
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Hint Hint Hint
 
 *** =pre_exercise_code
 ```{r}
@@ -387,10 +355,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -398,11 +362,9 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Great job! You are awesome."
+test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
-
-
 --- type:NormalExercise lang:python xp:100 skills:1 key:9d1e104368
 ## Regular Exercise
 
