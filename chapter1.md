@@ -91,7 +91,7 @@ These are called reading frames 1,2, and 3 respectively. An open reading frame (
 >sequence1
 ```ATGCCCTAG```
 <p>starts at position 1.
-Note that although the following sequence:
+<p>Note that although the following sequence:
 >sequence2
 ```ATGAAAAAA```
 doesn't have any stop codon in reading frame 1, we will not consider it to be an ORF in reading frame 1 because it doesn't end with a stop codon.
