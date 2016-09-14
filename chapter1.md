@@ -42,7 +42,7 @@ msg_success = "Exactly! Keep up the great work."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:7187d6e84e
-## A really bad movie
+## Question 2
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -78,7 +78,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:8f07414a65
-## A really bad movie
+## Question 3
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -114,7 +114,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:642d18896c
-## A really bad movie
+## Question 4
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -150,7 +150,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:60978bf3e8
-## A really bad movie
+## Question 5
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -186,7 +186,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:24d0be4fc4
-## A really bad movie
+## Question 6
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -222,7 +222,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:53437f0648
-## A really bad movie
+## Question 7
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -258,7 +258,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ea1198f108
-## A really bad movie
+## Question 8
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -294,7 +294,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ed76e2e48e
-## A really bad movie
+## Question 9
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -330,7 +330,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:9a3bc45efb
-## A really bad movie
+## Question 10
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -366,7 +366,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:aad7d67a7a
-## A really bad movie
+## Question 10
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -404,7 +404,7 @@ test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 
 
 --- type:NormalExercise lang:python xp:100 skills:1 key:9d1e104368
-## Plot the movies yourself
+## Regular Exercise
 
 Do you remember the plot of the last exercise? Let's make an even cooler plot!
 
