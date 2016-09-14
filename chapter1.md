@@ -85,7 +85,7 @@ In molecular biology, a reading frame is a way of dividing the DNA sequence of n
 TAT∑ATT∑AGCA∑GGT∑GAC∑
 ACC∑GCA∑AGC∑CTT∑ATA∑
 TTA∑GCAG∑GTG∑ACA∑CCG∑
-CAA∑GCC∑TTA∑TAT∑TAG∑C ```<
+CAA∑GCC∑TTA∑TAT∑TAG∑C ```
 
 These are called reading frames 1,2, and 3 respectively. An open reading frame (ORF) is the part of a reading frame that has the potential to code for a protein or peptide. It starts with a start codon (ATG), and ends with a stop codon (TAA, TAG or TGA). For instance, ATGAAATAG is an ORF of length 9. Given an input forward reading frame (1,2, or 3) your program should be able to identify all ORFs present in each sequence of the FASTA file, and answer the following questions: what is the length of the longest ORF in the file? What is the identifier of the sequence containing the longest ORF? What is the starting position of the longest ORF in the sequence that contains it? The position should indicate the character number in the sequence. For instance, the following ORF in reading frame 1:
 >sequence1
