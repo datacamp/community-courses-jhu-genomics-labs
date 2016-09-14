@@ -245,7 +245,7 @@ test_mc(1, [msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ## Question 7
 
 What is the length of the longest ORF that appears in the sequence with the identifier  
->gi|142022655|gb|EQ086233.1|97?
+> gi|142022655|gb|EQ086233.1|97?
 
 
 *** =instructions
