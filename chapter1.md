@@ -5,15 +5,20 @@ attachments :
 slides_link :
 
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:781f7226ca
-## A really bad movie
+## Question 1
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+Write a Python program that takes as input a multi-FASTA file with DNA sequences, and computes the answers to the following questions. You can choose to write one program with multiple functions to answer these questions, or you can write several programs to address them. There will be a final quiz at the end of the Python for Genomic Data course that will require you to run this program on a provided multi-FASTA file. 
+
+1. How many records are in the file? A record in a FASTA file is defined as a single-line header,  followed by lines of sequence data. The header of the record is distinguished from the sequence data by a greater-than (">") symbol in the first column. The word following the ">" symbol is the identifier of the sequence, and the rest of the line is the description.There should be no space between the ">" and the first letter of the identifier.
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 14
+- 740
+- 1240
+- 20
+- 18
+- 19
+- 760
 
 *** =hint
 Have a look at the plot. Do you see a trend in the dots?
@@ -26,10 +31,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
 ```
 
 *** =sct
@@ -37,8 +38,8 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+msg_success = "Exactly! Keep up the great work."
+test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:7187d6e84e
 ## A really bad movie
