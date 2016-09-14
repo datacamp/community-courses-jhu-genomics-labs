@@ -75,18 +75,33 @@ import matplotlib.pyplot as plt
 
 msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
+test_mc(5, [msg_bad, msg_bad, msg_bad, msg_bad, msg_success, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:8f07414a65
 ## Question 3
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+In molecular biology, a reading frame is a way of dividing the DNA sequence of nucleotides into a set of consecutive, non-overlapping triplets. Depending on what nucleotide in the first triplet of the DNA sequence we start the reading frame, there are six possible reading frames - three in the forward (5' to 3') direction and three in the reverse (3' to 5'). For instance, the three possible forward reading frames for the sequence 
+``` AGGTGACACCGCAAGCCTTATATTAGC are: AGG∑TGA∑CAC∑CGC∑AAG∑CCT∑TAT∑ATT∑AGCA∑GGT∑GAC∑ACC∑GCA∑AGC∑CTT∑ATA∑TTA∑GCAG∑GTG∑ACA∑CCG∑CAA∑GCC∑TTA∑TAT∑TAG∑C ```
+
+These are called reading frames 1,2, and 3 respectively. An open reading frame (ORF) is the part of a reading frame that has the potential to code for a protein or peptide. It starts with a start codon (ATG), and ends with a stop codon (TAA, TAG or TGA). For instance, ATGAAATAG is an ORF of length 9. Given an input forward reading frame (1,2, or 3) your program should be able to identify all ORFs present in each sequence of the FASTA file, and answer the following questions: what is the length of the longest ORF in the file? What is the identifier of the sequence containing the longest ORF? What is the starting position of the longest ORF in the sequence that contains it? The position should indicate the character number in the sequence. For instance, the following ORF in reading frame 1:
+>sequence1
+``` ATGCCCTAG ```
+starts at position 1.
+Note that although the following sequence:
+>sequence2
+``` ATGAAAAAA ```
+doesn't have any stop codon in reading frame 1, we will not consider it to be an ORF in reading frame 1 because it doesn't end with a stop codon.
+
+What is the length of the shortest sequence in the file?
+
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 1081
+- 257
+- 475
+- 132
+- 834
+- 1721
 
 *** =hint
 Hint Hint Hint
@@ -107,7 +122,7 @@ import matplotlib.pyplot as plt
 
 msg_bad = "That is not correct!"
 msg_success = "Great job! You are awesome."
-test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
+test_mc(3, [msg_bad, msg_bad, msg_success, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:642d18896c
 ## Question 4
