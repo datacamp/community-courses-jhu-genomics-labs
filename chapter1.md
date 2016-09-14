@@ -298,21 +298,16 @@ test_mc(2, [msg_bad, msg_success, msg_bad, msg_bad, msg_bad, msg_bad])
 ```
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:ea1198f108
 ## Question 8
-8.
-* What is the most number of times the most frequent repeat of length 6 appears in all sequences?
-1. 153
-_2_. 158
-3. 72
-4. 541
-5. 98
-6. 356
 
+What is the most number of times the most frequent repeat of length 6 appears in all sequences?
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- 153
+- 158
+- 72
+- 541
+- 98
+- 356
 
 *** =hint
 Hint Hint Hint
