@@ -183,7 +183,6 @@ ATGCCCTAG
 starts at position 1.
 
 
-
 *** =instructions
 - 237
 - 1045
